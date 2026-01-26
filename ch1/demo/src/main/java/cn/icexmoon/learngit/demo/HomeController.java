@@ -17,22 +17,18 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/index")
     public String index(){
-        return "hello";
+        return "index";
     }
 
-    @GetMapping("/test")
-    public String test(){
-        return "test";
+    @GetMapping("/commit1")
+    public String commit1(){
+        return "commit1";
     }
 
-    @GetMapping("/test2")
-    public String test2(){
-        return "test2";
-    }
 
-    @GetMapping("/test3")
-    public String test3(){
-        return "test3";
+    @GetMapping("/commit2")
+    public String commit2(){
+        return "commit2";
     }
 
     @GetMapping("/commit3")
@@ -40,8 +36,8 @@ public class HomeController {
         return "commit3";
     }
 
-    @GetMapping("/commit1")
-    public String commit1(){
-        return "commit1";
+    @GetMapping("/hello1")
+    public String hello1(){
+        return "hello1";
     }
 }
