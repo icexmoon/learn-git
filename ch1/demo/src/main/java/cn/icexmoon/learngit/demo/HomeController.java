@@ -19,4 +19,9 @@ public class HomeController {
     public String index(){
         return "index";
     }
+
+    @GetMapping("/commit1")
+    public String commit1(){
+        return "commit1";
+    }
 }
