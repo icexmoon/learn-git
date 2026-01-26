@@ -39,4 +39,9 @@ public class HomeController {
     public String commit3(){
         return "commit3";
     }
+
+    @GetMapping("/commit1")
+    public String commit1(){
+        return "commit1";
+    }
 }
