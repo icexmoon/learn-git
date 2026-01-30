@@ -13,8 +13,14 @@ import lombok.Data;
 public class User {
     private Long id;
     private String name;
+    private Integer age;
 
     public User(String name) {
         this.name = name;
+    }
+
+    public User(String name, Integer age) {
+        this.name = name;
+        this.age = age;
     }
 }
