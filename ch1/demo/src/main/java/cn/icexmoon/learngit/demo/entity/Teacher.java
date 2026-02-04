@@ -15,4 +15,5 @@ public class Teacher {
     private String name;
     private String title;
     private Integer age;
+    private ClassRoom classRoom;
 }
